@@ -42,7 +42,7 @@ namespace EcommerceAPI.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.ProductId);
-                    table.CheckConstraint("CK_Product_Stock", "[ProductStock] >= 0 AND [ProductStock] <= 1000");
+                    table.CheckConstraint("CK_Product_Stock", "\"ProductStock\" >= 0 AND \"ProductStock\" <= 1000");
                 });
 
             migrationBuilder.CreateTable(

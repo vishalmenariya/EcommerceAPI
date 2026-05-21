@@ -141,7 +141,7 @@ namespace EcommerceAPI.Migrations
 
                     b.ToTable("Products", t =>
                         {
-                            t.HasCheckConstraint("CK_Product_Stock", "[ProductStock] >= 0 AND [ProductStock] <= 1000");
+                            t.HasCheckConstraint("CK_Product_Stock", "\"ProductStock\" >= 0 AND \"ProductStock\" <= 1000");
                         });
                 });
 

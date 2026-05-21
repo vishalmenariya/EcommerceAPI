@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EcommerceAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260521162117_InitialPostgresDb")]
+    [Migration("20260521162726_InitialPostgresDb")]
     partial class InitialPostgresDb
     {
         /// <inheritdoc />
@@ -144,7 +144,7 @@ namespace EcommerceAPI.Migrations
 
                     b.ToTable("Products", t =>
                         {
-                            t.HasCheckConstraint("CK_Product_Stock", "[ProductStock] >= 0 AND [ProductStock] <= 1000");
+                            t.HasCheckConstraint("CK_Product_Stock", "\"ProductStock\" >= 0 AND \"ProductStock\" <= 1000");
                         });
                 });
 
