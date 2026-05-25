@@ -73,10 +73,11 @@ namespace EcommerceAPI
 
             app.MapScalarApiReference();
 
+            app.MapGet("/", () => Results.Redirect("/scalar"))
+            .ExcludeFromDescription();
+
             app.UseAuthorization();
             app.MapControllers();
-
-            app.MapGet("/", () => "Ecommerce API is running successfully!");
 
             app.Run();
         }
