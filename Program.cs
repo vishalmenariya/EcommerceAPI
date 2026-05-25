@@ -63,13 +63,20 @@ namespace EcommerceAPI
                     }
                 }
 
-                app.MapOpenApi();
+                //app.MapOpenApi();
 
-                app.MapScalarApiReference();
+                //app.MapScalarApiReference();
+
             }
+
+            app.MapOpenApi();
+
+            app.MapScalarApiReference();
 
             app.UseAuthorization();
             app.MapControllers();
+
+            app.MapGet("/", () => "Ecommerce API is running successfully!");
 
             app.Run();
         }
