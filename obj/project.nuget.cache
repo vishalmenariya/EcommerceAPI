@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BF6vBFWxzkc=",
+  "dgSpecHash": "61DoypWTPJM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vishal.menariya\\source\\repos\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+  "projectFilePath": "C:\\Dotnet Assignments\\EcommerceAPI\\EcommerceAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vishal.menariya\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\vishal.menariya\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

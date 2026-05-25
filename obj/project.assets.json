@@ -3268,11 +3268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vishal.menariya\\source\\repos\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+      "projectUniqueName": "C:\\Dotnet Assignments\\EcommerceAPI\\EcommerceAPI.csproj",
       "projectName": "EcommerceAPI",
-      "projectPath": "C:\\Users\\vishal.menariya\\source\\repos\\EcommerceAPI\\EcommerceAPI\\EcommerceAPI.csproj",
+      "projectPath": "C:\\Dotnet Assignments\\EcommerceAPI\\EcommerceAPI.csproj",
       "packagesPath": "C:\\Users\\vishal.menariya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vishal.menariya\\source\\repos\\EcommerceAPI\\EcommerceAPI\\obj\\",
+      "outputPath": "C:\\Dotnet Assignments\\EcommerceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
